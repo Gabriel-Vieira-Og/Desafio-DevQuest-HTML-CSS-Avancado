@@ -1,0 +1,53 @@
+@media(max-width: 425px) {
+
+    body {
+       width: 30vh; 
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section .image img {
+        width: 230px;
+        height: 200px;
+    }
+
+    .section h1 {
+        margin: 0 80px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .section p {
+        margin: 15px 80px;
+        color: #fff;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    .section a {
+        margin: 15px 80px;
+        background-color: #fff;
+        font-size: 1rem;
+        border-radius: 2rem;
+        transition: 0.3s;
+        padding: 8px 70px;
+
+    }
+
+    .footer {
+        margin-top: 70px;
+        margin-right: -50px;
+
+    }
+
+    .footer .social {
+        font-size: 1.5rem;
+    
+    }
+} 
